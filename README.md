@@ -71,6 +71,7 @@ potential causes of this:
 1. This issue _can_ sometimes happen if `binding.pry` is the _last_ line of code
    in a method like the example below.
 
+
     ```rb
     def selection(num)
       if num = 1
